@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    width: auto;
+    background-color: rgba(40, 35, 7, 1);
+    color: white;
+  }
+  
+  .less {
+    content: url('https://api.iconify.design/fa6-solid/less-than.svg?color=white');
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+  
+  .less:hover {
+    background: rgba(123, 105, 70, 0.52);
+    content: none;
+    width: 120px;
+    height: 180px;
+    display: grid;
+    /* content: url('https://api.iconify.design/logos/whatsapp-icon.svg');
+   */
+  }
+  
+  #icons {
+    content: url('https://api.iconify.design/logos/whatsapp-icon.svg');
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  header {
+    background: linear-gradient(0deg, rgba(40, 35, 7, 0.2), rgba(40, 35, 7, 0.2)), url(/img/royalle\ main\ pic.jpg);
+    height: 1450px;
+    background-size: cover;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+  
+    background: rgba(123, 105, 70, 0.52);
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .royalle_logo {
+    padding-left: 25px;
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-right: 25px;
+  }
+  
+  ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+  
+  ul li a:hover {
+    color: #dadad6bb;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  
+  
+    color: #FFFFFF;
+  }
+  
+  .center {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+    text-align: center;
+    padding-top: 350px;
+  
+    color: #FFFFFF;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+  }
+  
+  .nos {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+  
+    margin-bottom: 40px;
+    text-align: center;
+  
+    color: #D9D9D9;
+  
+  }
+  
+  .border_text {
+    background: rgba(4, 4, 4, 0.35);
+    border: 2px solid #FFFFFF;
+    border-radius: 33px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .border_text:hover {
+    background: #7B6946;
+  }
+  
+  .border_text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #FFFFFF;
+  
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  main {
+    background: #282307;
+    height: auto;
+  }
+  
+  #info {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+    margin: auto;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+  }
+  
+  .list_info {
+    width: 1000px;
+    height: 540px;
+    background: #725e3c;
+    border-radius: 227px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  
+  .list_info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: start;
+    padding: 50px;
+    margin-left: 100px;
+  
+  }
+  
+  .list_info ul li {
+    background: rgba(217, 217, 217, 0.28);
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    width: 350px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  
+  
+    color: #FFFFFF;
+  
+  }
+  
+  .list_info ul li:hover {
+    background: #7B6946;
+  }
+  
+  .list_info img {
+    background: rgba(217, 217, 217, 0.28);
+    border: 2px solid #FFFFFF;
+    /* border-radius: 100px; */
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+  }
+  
+  .itens .item {
+    background: linear-gradient(270.12deg, #A68D63 6.32%, rgba(166, 141, 99, 0) 99.92%);
+    border-radius: 69px;
+    width: 1418px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+    display: flex;
+    gap: 20px;
+    padding-top: 200px;
+  }
+  
+  .itens .item p {
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    padding-top: 40px;
+  }
+  
+  .itens .item .foto_item {
+    min-width: 350px;
+    height: 350px;
+    border: 1px solid #E7CDCD;
+    border-radius: 59px;
+  }
+  
+  #item_inverse {
+    background: linear-gradient(89.66deg, #8E7347 0.27%, rgba(142, 115, 71, 0) 99.7%);
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  #trabalhos {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+  }
+  
+  .footer {
+    height: 480px;
+    background: rgba(137, 129, 101, 0.4);
+    display: flex;
+    /* flex: 0 1 auto; */
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+  }
+  
+  .footer .footer-colum {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  
+  .footer .footer-colum .footer_title {
+    text-align: center;
+  }
+  
+  .footer .footer-colum ul .footer_content {
+    text-align: left;
+  }
+  
+  /* @media all and (max-width: 767px) {
+    .list_info img {
+      display: flex;
+      flex-direction: column;
+    }
+  }*/
+  
+  @media all and (max-width: 767px) {
+    header {
+      background-size: cover;
+      width: auto;
+    }
+  
+    nav {
+      position: relative;
+      height: 68px;
+      width: auto;
+      background: rgba(123, 105, 70, 0.52);
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav ul li a {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      /* gap:10px; */
+    }
+  
+    .royalle_logo {
+      padding-left: 25px;
+    }
+  
+    .center {
+      font-family: 'Arizonia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 150px;
+      text-align: center;
+      padding-top: 350px;
+  
+      color: #FFFFFF;
+    }
+  
+    .nos {
+      font-family: 'Arizonia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 45px;
+      line-height: 150px;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #D9D9D9;
+    }
+  
+    .down {
+      margin-top: 0px;
+    }
+  
+    .border_text {
+      width: 300px;
+      height: 450px;
+      text-align: justify;
+    }
+  
+    /* .border_text p {
+      
+    } */
+  }
+  
+  @media all and (max-width: 767px) {
+    #info {
+      font-family: 'Arizonia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 150px;
+      margin: auto;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 40px 0px 40px 0px;
+    }
+  
+    .list_info {
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: rgba(137, 129, 101, 0.4);
+      border-radius: 120px;
+      align-items: center;
+      padding-top: 30px;
+      padding-left: 0px;
+    }
+  
+    .list_info img {
+      display: flex;
+      flex-direction: column;
+      background: rgba(217, 217, 217, 0.28);
+      border: 2px solid #FFFFFF;
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+    }
+  
+    .list_info ul li {
+      margin: 0;
+      width: 200px;
+    }
+  
+    .list_info ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      /* padding: 50px; */
+      margin: 10px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .itens .item {
+      background: linear-gradient(270.12deg, #A68D63 6.32%, rgba(166, 141, 99, 0) 99.92%);
+      border-radius: 69px;
+      width: auto;
+      height: 500px;
+      margin-top: 50px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding-top: 40px;
+    }
+  
+    .itens .item p {
+      font-family: 'Tienne';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 48px;
+      text-align: center;
+  
+      color: #FFFFFF;
+  
+      padding-top: 0px;
+    }
+  
+    .itens .item .foto_item {
+      width: 240px;
+      height: 240px;
+      min-width: auto;
+      border: 1px solid #E7CDCD;
+      border-radius: 59px;
+      display: flex;
+      flex-direction: column;
+      /* background: rgba(217, 217, 217, 0.28); */
+      /* margin:20px */
+    }
+  
+    #item_inverse {
+      background: linear-gradient(89.66deg, #8E7347 0.27%, rgba(142, 115, 71, 0) 99.7%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #trabalhos {
+      font-family: 'Arizonia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 33px;
+      /* line-height: 150px; */
+  
+      text-align: center;
+  
+      color: #FFFFFF;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .footer {
+      width: auto;
+      /* width: 25.5vh; */
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .footer .footer-colum .footer_title {
+      text-align: center;
+    }
+  
+    .footer .footer-colum .footer_content iframe {
+      width: 360px;
+      height: 300px;
+    }
+  
+    .footer .footer-colum ul {
+      display: flex;
+      gap: 20px;
+      text-align: center;
+      /* margin-right: 25px; */
+      margin: 20px;
+      padding: 0;
+      align-items: center;
+    }
+  
+    .footer .footer-colum .footer_content iframe {
+      padding-left: 20px;
+    }
+  }
+  
+  
+  /* @media all and (max-width: 767px) {
+    .footer .footer-colum .footer_content iframe {
+      align-content: space-around;
+      padding-left: 28rem; 
+    }
+  } */

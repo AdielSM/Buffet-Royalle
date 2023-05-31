@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: arizonia;
+    background-color: rgba(40, 35, 7, 1);
+  }
+  
+  header {
+    height: 60px;
+    left: 0px;
+    background: rgba(123, 105, 70, 0.52);
+  }
+  
+  h2 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .colum {
+    height: 1220px;
+    background: #826F4F;
+  }
+    
+  #cake_title {
+    padding-top: 130px;
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 107px;
+    color: white;
+  }
+  
+  main section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+  }
+  
+  main section div section img {
+    width: 260px;
+    height: 318px;
+    margin-bottom: 178px;
+    border-radius: 10px;
+  }
+
+  #candy_title {
+    padding-top: 130px;
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 107px;
+    color: white;
+  }
+  
+  footer {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  footer img {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  @media all and (max-width: 767px) {
+    .marriage {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    main section div {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  
+    .colum {
+      height: 1340px;
+    }
+  
+    main section div section img {
+      width: 180px;
+      height: 180px;
+      margin-bottom: 178px;
+      border-radius: 10px;
+    }
+  }
